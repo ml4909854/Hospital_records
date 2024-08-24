@@ -1,0 +1,64 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Document Records</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 id="heading"><u> Hospital - Doctor Records </u></h1>
+    <section id="main_container">
+        
+    <section id="container_1">
+        <form class="form">
+            <p>Doctor Name</p>
+            <input type="text" placeholder="eg.Mahesh Kumar">
+            <p>Doctor Id</p>
+            <input type="text" placeholder="eg.4543">
+            <p>Specialization</p>
+            <select name="" id="select">
+                <option value="COVID">COVID</option>
+                <option value="Dentist">Dentist</option>
+                <option value="Psycologist">Psycologist</option>
+                <option value="Pathologist">Pathologist</option>
+            </select>
+            <p>Experience in years</p>
+            <input type="text" placeholder="eg.5">
+            <p>Email address</p>
+            <input type="text" placeholder="ml65465@gmail.com" >
+            <p>Mobile Number</p>
+            <input type="text" placeholder="eg.6564346555">
+            <input id="submit" onclick="clear()" type="submit" >
+        </form>
+    </section>
+    <section id="container_2">
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Doctor Name</th>
+                    <th>Id</th>
+                    <th>Specialization</th>
+                    <th>Experience</th>
+                    <th>Email <Address></Address></th>
+                    <th>Mobile Number</th>
+                    <th>Role</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </section>
+<section>
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
